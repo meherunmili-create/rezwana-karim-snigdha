@@ -1,0 +1,191 @@
+####################################################################
+# Pages CMS configuration  (https://pagescms.org)
+# This lets a non-technical editor change the website's content
+# through a friendly web form — no code, no Netlify.
+# Editor signs in at https://app.pagescms.org with a GitHub account.
+####################################################################
+
+media:
+  input: src/assets/img      # where uploaded images are stored in the repo
+  output: /assets/img        # the path used on the live website
+
+content:
+  # ---------- Site, hero, about, contact ----------
+  - name: site
+    label: "Site, Hero & Contact"
+    type: file
+    path: src/_data/site.json
+    fields:
+      - { name: title, label: "Browser tab title", type: string }
+      - { name: description, label: "SEO description", type: text }
+      - { name: url, label: "Live site URL", type: string, description: "Used in SEO tags. Set this to your real site address (e.g. https://your-site.pages.dev)." }
+      - { name: brandTop, label: "Header — first part of name", type: string }
+      - { name: brandAccent, label: "Header — highlighted last name", type: string }
+      - { name: eyebrow, label: "Hero eyebrow", type: string }
+      - { name: nameTop, label: "Hero name — line 1", type: string }
+      - { name: nameAccent, label: "Hero name — gold accent line", type: string }
+      - { name: heroRole, label: "Hero role line", type: text }
+      - { name: grant, label: "Hero grant banner", type: string }
+      - { name: chips, label: "Hero research chips", type: string, list: true }
+      - { name: portrait, label: "Hero portrait", type: image }
+      - { name: portraitPill, label: "Portrait pill text", type: string }
+      - { name: bookBn, label: "Book title (Bengali)", type: string }
+      - { name: bookEn, label: "Book subtitle", type: string }
+      - { name: aboutQuote, label: "About — pull quote", type: text }
+      - { name: aboutPhoto, label: "About — photo", type: image }
+      - { name: about, label: "About — paragraphs (homepage)", type: text, list: true, description: "Add each PARAGRAPH as its own item. Do not paste one big block — keep paragraphs separate." }
+      - { name: bioLong, label: "Long biography (CV page)", type: text, list: true, description: "Add each paragraph as its own item." }
+      - name: roles
+        label: "Current roles & affiliations"
+        type: object
+        list: true
+        fields:
+          - { name: role, label: "Role", type: string }
+          - { name: org, label: "Organisation", type: string }
+      - name: gallery
+        label: "Speaking gallery photos"
+        type: object
+        list: true
+        fields:
+          - { name: image, label: "Image", type: image }
+          - { name: caption, label: "Caption", type: string }
+      - { name: email, label: "Contact email", type: string }
+      - { name: phone, label: "Contact phone", type: string }
+      - { name: address, label: "Contact address", type: text }
+      - { name: scholar, label: "Google Scholar URL", type: string }
+      - { name: researchgate, label: "ResearchGate URL", type: string }
+      - { name: university, label: "University profile URL", type: string }
+
+  # ---------- Research areas ----------
+  - name: research
+    label: "Research Areas"
+    type: file
+    path: src/_data/research.json
+    fields:
+      - name: items
+        label: "Areas"
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: "Icon", type: select, options: { values: [hijra, feminist, body, medical, climate, media, urban, srh] } }
+          - { name: title, label: "Title", type: string }
+          - { name: body, label: "Description", type: text }
+
+  # ---------- Publications ----------
+  - name: publications
+    label: "Publications"
+    type: file
+    path: src/_data/publications.json
+    fields:
+      - name: items
+        label: "Publications"
+        type: object
+        list: true
+        fields:
+          - { name: featured, label: "Show on homepage?", type: boolean, default: false, description: "On = appears in the homepage 'Selected writing'. Everything shows on the full Publications page." }
+          - { name: year, label: "Year", type: string }
+          - { name: type, label: "Type", type: select, options: { values: [book, article, chapter] } }
+          - { name: title, label: "Title", type: string }
+          - { name: venue, label: "Venue / citation", type: text }
+
+  # ---------- Talks ----------
+  - name: talks
+    label: "Talks & Keynotes"
+    type: file
+    path: src/_data/talks.json
+    fields:
+      - name: items
+        label: "Talks"
+        type: object
+        list: true
+        fields:
+          - { name: when, label: "When / where", type: string }
+          - { name: title, label: "Title", type: string }
+          - { name: where, label: "Detail", type: string }
+
+  # ---------- Projects ----------
+  - name: projects
+    label: "Projects"
+    type: file
+    path: src/_data/projects.json
+    fields:
+      - name: items
+        label: "Projects"
+        type: object
+        list: true
+        fields:
+          - { name: meta, label: "Meta (dates · type)", type: string }
+          - { name: title, label: "Title", type: string }
+          - { name: body, label: "Description", type: text }
+          - { name: role, label: "Role", type: string }
+
+  # ---------- Recognition ----------
+  - name: recognition
+    label: "Recognition & Service"
+    type: file
+    path: src/_data/recognition.json
+    fields:
+      - name: groups
+        label: "Groups"
+        type: object
+        list: true
+        fields:
+          - { name: icon, label: "Icon", type: select, options: { values: [award, review, leadership, membership] } }
+          - { name: title, label: "Group title", type: string }
+          - name: items
+            label: "Items"
+            type: object
+            list: true
+            fields:
+              - { name: name, label: "Name", type: string }
+              - { name: detail, label: "Detail (optional)", type: string, required: false }
+
+  # ---------- Teaching ----------
+  - name: teaching
+    label: "Teaching"
+    type: file
+    path: src/_data/teaching.json
+    fields:
+      - { name: intro, label: "Intro paragraph", type: text }
+      - name: items
+        label: "Courses & seminars"
+        type: object
+        list: true
+        fields:
+          - { name: title, label: "Course / area title", type: string }
+          - { name: level, label: "Level", type: string }
+          - { name: detail, label: "Description", type: text }
+
+  # ---------- Media & Public Engagement ----------
+  - name: media
+    label: "Media & Public Engagement"
+    type: file
+    path: src/_data/media.json
+    fields:
+      - name: items
+        label: "Media items"
+        type: object
+        list: true
+        fields:
+          - { name: outlet, label: "Outlet / venue", type: string }
+          - { name: type, label: "Type", type: string }
+          - { name: title, label: "Title", type: string }
+          - { name: year, label: "Year", type: string }
+          - { name: url, label: "Link (optional)", type: string, required: false }
+
+  # ---------- Fieldwork map ----------
+  - name: fieldwork
+    label: "Fieldwork Map"
+    type: file
+    path: src/_data/fieldwork.json
+    fields:
+      - name: items
+        label: "Sites"
+        type: object
+        list: true
+        fields:
+          - { name: name, label: "Place name", type: string }
+          - { name: note, label: "Note", type: string }
+          - { name: lat, label: "Latitude", type: number }
+          - { name: lng, label: "Longitude", type: number }
+          - { name: color, label: "Marker colour", type: select, options: { values: [plum, terra, teal] } }
