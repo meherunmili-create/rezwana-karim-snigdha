@@ -1,12 +1,44 @@
 {
   "items": [
-    { "icon": "hijra", "title": "Hijra & Transgender Studies", "body": "Situated ethnography of gender-diverse communities and the politics of recognition." },
-    { "icon": "feminist", "title": "Feminist Anthropology", "body": "Reading power, labour, and selfhood through the lives of women in urban Bangladesh." },
-    { "icon": "body", "title": "Body & Identity Politics", "body": "How bodies perform, resist, and remember — from everyday life to mass movements." },
-    { "icon": "medical", "title": "Medical Anthropology", "body": "Health discourse, care, and the governance of bodies in South Asian contexts." },
-    { "icon": "climate", "title": "Climate & Coastal Lives", "body": "Reproductive health and resilience among women in salinity-stressed coastal Bangladesh." },
-    { "icon": "media", "title": "Post-Truth Media", "body": "Truth, rumour, and broadcast across the border in a fractured media landscape." },
-    { "icon": "urban", "title": "Urban Anthropology", "body": "City life, class, and the making of the middle-class self in Dhaka." },
-    { "icon": "srh", "title": "Sexual & Reproductive Health", "body": "Rights, access, and silence around SRH for women and gender-diverse people." }
+    {
+      "icon": "feminist",
+      "title": "Feminist Anthropology",
+      "body": "Exploring gendered inequalities, agency, and resistance across everyday life, institutions, and systems of power."
+    },
+    {
+      "icon": "hijra",
+      "title": "Hijra & Transgender Studies",
+      "body": "Ethnographic explorations of gender diversity, embodied agency, social recognition, and the politics of citizenship and belonging."
+    },
+    {
+      "icon": "body",
+      "title": "Body, Sexuality and Identity Politics",
+      "body": "Ethnographic explorations of bodies, sexuality, and identity, with attention to agency, power, intimacy, and social norms."
+    },
+    {
+      "icon": "medical",
+      "title": "Medical Anthropology",
+      "body": "Exploring how health, healing, and well-being are shaped by culture, power, inequality, and the politics of care."
+    },
+    {
+      "icon": "climate",
+      "title": "Climate Justice & Gendered Vulnerability",
+      "body": "Exploring the intersections of climate change, gendered vulnerability, and social justice through feminist and ethnographic perspectives on adaptation, resilience, and lived experience."
+    },
+    {
+      "icon": "media",
+      "title": "Post-Truth Media",
+      "body": "Examining the production, circulation, and contestation of truth, knowledge, and public narratives in contemporary media landscapes."
+    },
+    {
+      "icon": "urban",
+      "title": "Urban Anthropology",
+      "body": "Exploring city life, class, aspiration, and the making of middle-class selves in rapidly transforming urban landscapes."
+    },
+    {
+      "icon": "srh",
+      "title": "Sexual & Reproductive Health",
+      "body": "Examining sexual and reproductive health through the lenses of medical anthropology, health sociology, and gender justice."
+    }
   ]
 }
