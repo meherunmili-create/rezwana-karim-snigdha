@@ -43,7 +43,7 @@
       "venue": "Snigdha, R. K. · Global Journal of Human-Social Science Research, 19(5), 29–36. doi:10.34257/GJHSSCVOL19IS5PG29"
     },
     {
-      "featured": true,
+      "featured": false,
       "year": "2017",
       "type": "article",
       "title": "বাস্তব ও অতিবাস্তবের উপাখ্যান, মৃত্যু—একটি পর্যালোচনা (Narratives of the Real and the Surreal: A Review of Death))",
@@ -72,10 +72,31 @@
     },
     {
       "featured": false,
+      "year": "2014",
+      "type": "article",
+      "title": "\"মাগী মাইনষের কথা শোনাও যা, না শোনাও তা\"—ভাষার লিঙ্গীয় অসমতার একটি পাঠ [নারীর কি কোনো ভাষা আছে? বাংলা ভাষায় লিঙ্গভিত্তিক বৈষম্যের একটি অধ্যয়ন",
+      "venue": "Snigdha, R. K. (2014). Social Science Review: Journal of Social Science Faculty, Jahangirnagar University, Dhaka, Vol. 1, 103–111"
+    },
+    {
+      "featured": false,
+      "year": "2013",
+      "type": "article",
+      "title": "‘ঢাকাই হাই কালচার’: একটি তাত্ত্বিক পর্যালোচনা",
+      "venue": "Snigdha, R. K. নৃবিজ্ঞান পত্রিকা, 18, 97–109. নৃবিজ্ঞান বিভাগ, জাহাঙ্গীরনগর বিশ্ববিদ্যালয়. ISSN: 1680-0621\n"
+    },
+    {
+      "featured": false,
       "year": "2013",
       "type": "article",
       "title": "নারীসত্তা নির্মাণে 'এজেন্সি' ও সামাজিক পুজির ধারণায়ন (\"Constructing Female Agency: Conceptualizing Agency and Social Capital\"",
       "venue": "Snigdha, R. K. নৃবিজ্ঞান পত্রিকা, 17, 61–75. ISSN: 1680-0621. Jahangirnagar University."
+    },
+    {
+      "featured": false,
+      "year": "2010",
+      "type": "article",
+      "title": "সত্তার ধারণায়ন: একটি তাত্ত্বিক বিশ্লেষণ ",
+      "venue": "Snigdha, R. K. নৃবিজ্ঞান পত্রিকা, 15, 11–24. ISSN: 1680-0621\n"
     },
     {
       "featured": true,
@@ -90,20 +111,6 @@
       "type": "chapter",
       "title": "My Entirety",
       "venue": "In P. Mandal et al. (Eds.), My City, My Home (pp. 195–198) · Sampad South Asian Arts & Heritage"
-    },
-    {
-      "featured": false,
-      "year": "2010",
-      "type": "article",
-      "title": "সত্তার ধারণায়ন: একটি তাত্ত্বিক বিশ্লেষণ ",
-      "venue": "Snigdha, R. K. নৃবিজ্ঞান পত্রিকা, 15, 11–24. ISSN: 1680-0621\n"
-    },
-    {
-      "featured": false,
-      "year": "2013",
-      "type": "article",
-      "title": "‘ঢাকাই হাই কালচার’: একটি তাত্ত্বিক পর্যালোচনা",
-      "venue": "Snigdha, R. K. নৃবিজ্ঞান পত্রিকা, 18, 97–109. নৃবিজ্ঞান বিভাগ, জাহাঙ্গীরনগর বিশ্ববিদ্যালয়. ISSN: 1680-0621\n"
     }
   ]
 }
