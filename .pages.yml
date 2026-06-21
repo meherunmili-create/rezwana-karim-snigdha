@@ -84,7 +84,7 @@ content:
         fields:
           - { name: featured, label: "Show on homepage?", type: boolean, default: false, description: "On = appears in the homepage 'Selected writing'. Everything shows on the full Publications page." }
           - { name: year, label: "Year", type: string }
-          - { name: type, label: "Type", type: select, options: { values: [book, article, chapter] } }
+          - { name: type, label: "Type", type: string, description: "Category — e.g. Book, Article, Chapter, Conference Proceedings, Working Paper. Type ANY category and it becomes a filter on the Publications page automatically. Tip: reuse the exact same spelling for items you want grouped under one filter." }
           - { name: title, label: "Title", type: string }
           - { name: venue, label: "Venue / citation", type: text }
 
