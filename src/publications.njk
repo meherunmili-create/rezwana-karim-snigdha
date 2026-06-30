@@ -16,19 +16,17 @@ pageDescription: "Books, chapters, peer-reviewed articles, conference presentati
 
 <section class="section">
   <div class="container">
+    {% set types = publications.items | pubTypes %}
     <div class="filters reveal" role="tablist" aria-label="Filter publications">
       <button class="chip active" data-filter="all">All</button>
-      <button class="chip" data-filter="book">Books</button>
-      <button class="chip" data-filter="article">Articles</button>
-      <button class="chip" data-filter="chapter">Chapters</button>
+      {% for t in types %}<button class="chip" data-filter="{{ t | slugify }}">{{ t }}</button>{% endfor %}
     </div>
-    {% set labels = { "book": "Book", "article": "Article", "chapter": "Chapter" } %}
     <div class="pub-list">
       {% for p in publications.items %}
-      <article class="pub reveal" data-type="{{ p.type }}">
+      <article class="pub reveal" data-type="{{ p.type | slugify }}">
         <span class="year">{{ p.year }}</span>
         <div><h3>{{ p.title | safe }}</h3><p class="venue">{{ p.venue | safe }}</p></div>
-        <span class="tag tag--{{ p.type }}">{{ labels[p.type] }}</span>
+        <span class="tag tag--{{ p.type | slugify }}">{{ p.type }}</span>
       </article>
       {% endfor %}
     </div>
