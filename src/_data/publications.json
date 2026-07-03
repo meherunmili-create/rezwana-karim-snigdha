@@ -3,9 +3,23 @@
     {
       "featured": true,
       "year": "2023",
-      "type": "Book",
+      "type": "BOOK",
       "title": "<span class=\"bn\">নারীসত্তার অন্বেষণে</span> — In Search of Women's Self: An Ethnographic Study of Middle-Class Women in Dhaka",
       "venue": "Snigdha, R. K. · Dhaka: Oitijhya · 320+ Google Scholar citations"
+    },
+    {
+      "featured": true,
+      "year": "2022",
+      "type": "BOOK CHAPTER",
+      "title": "An Analysis of the Gender Representation of Post-War Sculptures at Public Universities in Dhaka",
+      "venue": "In A. Hussain (Ed.), Contemporary Issues in Social Science (pp. 93–107) · Jahangirnagar University"
+    },
+    {
+      "featured": true,
+      "year": "2021",
+      "type": "BOOK CHAPTER",
+      "title": "My Entirety",
+      "venue": "In P. Mandal et al. (Eds.), My City, My Home (pp. 195–198) · Sampad South Asian Arts & Heritage"
     },
     {
       "featured": true,
@@ -100,85 +114,78 @@
     },
     {
       "featured": true,
-      "year": "2022",
-      "type": "Book Chapter",
-      "title": "An Analysis of the Gender Representation of Post-War Sculptures at Public Universities in Dhaka",
-      "venue": "In A. Hussain (Ed.), Contemporary Issues in Social Science (pp. 93–107) · Jahangirnagar University"
-    },
-    {
-      "featured": true,
-      "year": "2021",
-      "type": "Book Chapter",
-      "title": "My Entirety",
-      "venue": "In P. Mandal et al. (Eds.), My City, My Home (pp. 195–198) · Sampad South Asian Arts & Heritage"
-    },
-    {
-      "featured": true,
       "year": "2025",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "The Socio-cultural Perspective of Women's Sexual and Reproductive Health in Coastal Bangladesh: An Ethnographic Observation.",
       "venue": "Snigdha, R. K. World Anthropological Union (WAU) Congress 2025, Antigua, Guatemala.\n"
     },
     {
       "featured": true,
+      "year": "2025",
+      "type": "PROJECT PRESENTATION",
+      "title": "Salty Waters, Silent Struggles: An Ethnographic Study of Sexual and Reproductive Health of Women in Coastal Bangladesh",
+      "venue": "Snigdha, R. K. (Sub-Project Manager, Competitively Selected), UGC–World Bank HEAT Project"
+    },
+    {
+      "featured": true,
       "year": "2024",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "Exploring the Perception of Masculinities: A Comparative Study of Nonbinary and Cisgender Individuals.",
       "venue": "Snigdha, R. K. World Anthropological Union (WAU) Congress 2024, Johannesburg, South Africa.\n"
     },
     {
       "featured": true,
       "year": "2023",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "Access to Health Care is a Daydream for Us': The Politics of Medicalization of Hijra in Bangladesh.",
       "venue": "Snigdha, R. K. 19th IUAES-WAU World Anthropology Congress 2023, Delhi, India."
     },
     {
       "featured": true,
       "year": "2022",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "The Visibility of the Invisible During the COVID Pandemic: An Anthropological Observation.",
       "venue": "Snigdha, R. K. ASAA Conference 2022 — Social Justice in Pandemic Times, Monash University, Australia.\n"
     },
     {
       "featured": true,
       "year": "2020",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "Unzipping Your Pants: Dehumanization of Hijra in Contemporary Bangladesh.",
       "venue": "Snigdha, R. K. New Zealand South Asian Center (NZAC), University of Canterbury, New Zealand."
     },
     {
       "featured": true,
       "year": "2016",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "Exploring Hijra in Bangladesh: A Critical Ethnographic Study.",
       "venue": "Snigdha, R. K. Gender and Diversity Research Seminar, Auckland University of Technology, New Zealand.\n"
     },
     {
       "featured": true,
       "year": "2016",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "The Romance of Marginalization: Relocating the Hijra in Bangladesh. Critical Engagement in Anthropological Landscape in Bangladesh",
       "venue": "Snigdha, R. K. Shahjalal University of Science and Technology, Sylhet.\n"
     },
     {
       "featured": true,
       "year": "2015",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "Questioning Transgender Bodies: Constructions and Reconstructions of the Transsexual 'Other' in Bangladesh. ",
       "venue": "Snigdha, R. K.  AUT Doctoral Conference, School of Public Health and Psychosocial Studies, Auckland, New Zealand.\n"
     },
     {
       "featured": true,
       "year": "2014",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "A Critical Study of Gender Representations in Post-War Public Sculptures of Dhaka City.",
       "venue": "Snigdha, R. K. 10th International Conference on History and Culture, Bangladesh History Academy, Dhaka.\n"
     },
     {
       "featured": true,
       "year": "2013",
-      "type": "Conference Papers",
+      "type": "CONFERENCE PROCEDINGS",
       "title": "The Perception of Death: A Critical Analysis.",
       "venue": "Snigdha, R. K. Anthropology: Critical Juncture between Theory and Practice, Comilla University / HEQP, Comilla, Bangladesh.\n"
     }
