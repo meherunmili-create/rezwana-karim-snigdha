@@ -11,6 +11,11 @@
       "show": true
     },
     {
+      "anchor": "teaching",
+      "label": "Teaching",
+      "show": true
+    },
+    {
       "anchor": "publications",
       "label": "Publications",
       "show": true
@@ -23,11 +28,6 @@
     {
       "anchor": "projects",
       "label": "Projects",
-      "show": true
-    },
-    {
-      "anchor": "teaching",
-      "label": "Teaching",
       "show": true
     },
     {
