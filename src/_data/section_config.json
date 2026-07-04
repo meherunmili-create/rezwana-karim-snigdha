@@ -26,6 +26,11 @@
       "show": true
     },
     {
+      "anchor": "training",
+      "label": "Training & Capacity Building",
+      "show": true
+    },
+    {
       "anchor": "teaching",
       "label": "Teaching",
       "show": true
