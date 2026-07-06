@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "outlet": "Samakal",
+      "type": "Column",
+      "title": "রাজনীতিতে নারী",
+      "year": "2026",
+      "url": "https://samakal.com/somota/article/360654?fbclid=IwVERDUAS4FqVleHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR40Hwql2I-vwDphk0hXAD2ms_DpygqzOznF797QO55Rq5BIP6ZByLJ4CYUJfg_aem_B1-Ns0PMhz4Qn7rsRgQqZQ"
+    },
+    {
       "outlet": "The Deltagram",
       "type": "Interview",
       "title": "They know it's not religious'",
@@ -160,13 +167,6 @@
       "title": "Talk on Current Affairs, Sexual Violence, Body politica, Religion, and Power",
       "year": "2026",
       "url": "https://www.youtube.com/watch?v=NVyRuPd3GoE&list=PL-RICtB_84ousmvEulM_3MSfaIS_5OnrI&index=51"
-    },
-    {
-      "outlet": "Samakal",
-      "type": "Column",
-      "title": "রাজনীতিতে নারী",
-      "year": "2026",
-      "url": "https://samakal.com/somota/article/360654?fbclid=IwVERDUAS4FqVleHRuA2FlbQIxMABzcnRjBmFwcF9pZAwzNTA2ODU1MzE3MjgAAR40Hwql2I-vwDphk0hXAD2ms_DpygqzOznF797QO55Rq5BIP6ZByLJ4CYUJfg_aem_B1-Ns0PMhz4Qn7rsRgQqZQ"
     }
   ]
 }
